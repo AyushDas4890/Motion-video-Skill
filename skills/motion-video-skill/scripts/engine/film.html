@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"></head><body style="margin:0;background:#000">
+<canvas id="c" width="1080" height="1920" style="display:block"></canvas>
+<!-- Load order matters. 1 project config  2 engine core  3 world kits (shared devices, ink kit, W* kit, colour world)
+     4 starter scenes  5 YOUR scenes (acts/scenes_*.js; a later file overrides an earlier SCENES.name)  6 timeline  7 layout.
+     Add a scene file: put a <script src="acts/scenes_xyz.js"> line next to scenes_main.js. -->
+<script src="project.js"></script>
+<script src="kit.js"></script>
+<script src="acts/shared.js"></script>
+<script src="acts/style.js"></script><script src="acts/world.js"></script><script src="acts/color.js"></script>
+<script src="acts/starter.js"></script>
+<script src="acts/scenes_main.js"></script>
+<script src="beats.js"></script><script src="edl.js"></script>
+<script src="layout.js"></script>
+</body></html>

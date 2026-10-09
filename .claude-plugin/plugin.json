@@ -1,0 +1,10 @@
+{
+  "name": "motion-video-skill",
+  "version": "2.0.0",
+  "description": "Turn any talking-head video into an art-directed, colourful motion-graphics film: asks a short intake, then builds illustrated scenes, word-timed captions, music and sfx, QA and renders it deterministically.",
+  "author": { "name": "Ayush Das", "url": "https://github.com/AyushDas4890" },
+  "homepage": "https://github.com/AyushDas4890/Motion-video-Skill",
+  "repository": "https://github.com/AyushDas4890/Motion-video-Skill",
+  "license": "MIT",
+  "keywords": ["motion-graphics", "video-editing", "captions", "canvas", "ffmpeg", "playwright", "reels", "claude-skill"]
+}
